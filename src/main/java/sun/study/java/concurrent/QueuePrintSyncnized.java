@@ -26,7 +26,6 @@ public class QueuePrintSyncnized {
                     synchronized (next) {// 再获取 self 锁
                         System.out.print(name);// 打印
                         count--;
-                        if()
                         next.notifyAll();// 唤醒其他线程竞争self锁，注意此时self锁并未立即释放。
                     }
                     // 此时执行完self的同步块，这时self锁才释放。
