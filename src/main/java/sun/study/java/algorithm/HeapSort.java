@@ -1,8 +1,10 @@
 package sun.study.java.algorithm;
 
+/**
+ * 堆排序
+ */
 public class HeapSort {
 
-    //TODO 堆
     public static int[] sort(int[] target){
         System.out.println("heap-----------------------------------------------------------------");
         int[] array = target.clone();
