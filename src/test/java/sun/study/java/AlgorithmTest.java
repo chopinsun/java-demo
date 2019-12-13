@@ -1,12 +1,7 @@
 package sun.study.java;
 
 import sun.study.java.algorithm.QuickSort;
-import sun.study.java.algorithm.QuickSort1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class AlgorithmTest {
 
