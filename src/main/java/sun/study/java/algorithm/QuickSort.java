@@ -5,7 +5,7 @@ package sun.study.java.algorithm;
  * 取基数，一般是第一个元素
  * 将小于基数的数排列在基数左边，大于基数的数排列在基数右边
  * 在左右两边重复上述过程，直到不能再分
- * 时间复杂度  n ~ n平方  平均复杂度 n*logn
+ * 时间复杂度  n ~ n²  平均复杂度 n*logn
  */
 public class QuickSort {
 
