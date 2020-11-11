@@ -22,8 +22,8 @@ public class HeapSort {
 
     /**
      *  构建子树，使其满足堆定义
-     * @param array 待调整的数据
-     * @param p 待调整数组元素的位置
+     * @param arr 待调整的数据
+     * @param s 待调整数组元素的位置
      * @param length 整个数组长度
      */
     private static void build_heap(int[] arr,int s,int length){
